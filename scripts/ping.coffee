@@ -19,7 +19,7 @@ module.exports = (robot) ->
 
   robot.respond /DIE$/i, (msg) ->
     msg.send "Goodbye, cruel world."
-    
+    process.exit 0
 
     robot.respond /hello$/i, (msg) ->
     msg.send "Hello, there."
@@ -27,6 +27,6 @@ module.exports = (robot) ->
 
     robot.respond /Good morning$/i, (msg) ->
     msg.send "Good morning there."
-    process.exit 0
+    
 
 
