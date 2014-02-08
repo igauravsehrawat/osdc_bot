@@ -17,16 +17,19 @@ module.exports = (robot) ->
   robot.respond /TIME$/i, (msg) ->
     msg.send "Server time is: #{new Date()}"
 
+
+  robot.respond /hello$/i, (msg) ->
+    msg.send "Hello, there."
+
+
+  robot.respond /Good morning$/i, (msg) ->
+    msg.send "Good morning there."
+
   robot.respond /DIE$/i, (msg) ->
     msg.send "Goodbye, cruel world."
     process.exit 0
 
-    robot.respond /hello$/i, (msg) ->
-    msg.send "Hello, there."
-
-
-    robot.respond /Good morning$/i, (msg) ->
-    msg.send "Good morning there."
+    
     
 
 
