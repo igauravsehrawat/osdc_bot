@@ -17,3 +17,4 @@ powered by hubot
 
 Edited Lorep ipsum
 
+Learn nodejs,coffeescript and ruby using this an example.
